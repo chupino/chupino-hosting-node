@@ -23,7 +23,7 @@ services:
       - db
     networks:
       - backend
-    command: sh -c "./init-app.sh"
+    command: sh -c "chmod +x init-app.sh && ./init-app.sh"
 
 networks:
   backend:
