@@ -1,6 +1,4 @@
 const AWS = require('aws-sdk');
-const express = require('express');
-const app = express();
 const {bucketSpaceName, bucketRegion,bucketAccessKey,bucketSecretKey} = require('../../config/config_dotenv')
 
 const uploadFile = async (name,fileContent, path) => {

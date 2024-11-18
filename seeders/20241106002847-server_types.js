@@ -10,7 +10,7 @@ module.exports = {
         ram: '2 RAM',
         storage: '30gb',
         size:'s-1vcpu-2gb',
-        imageURL: 'http://localhost:3000/static/images/one-star.png',
+        imageURL: 'https://chupinohostingbucket.nyc3.cdn.digitaloceanspaces.com/static/images/one-star.png',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -20,7 +20,7 @@ module.exports = {
         ram: '4 RAM',
         storage: '30gb',
         size:'s-2vcpu-4gb',
-        imageURL: 'http://localhost:3000/static/images/two-star.png',
+        imageURL: 'https://chupinohostingbucket.nyc3.cdn.digitaloceanspaces.com/static/images/two-star.png',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -30,7 +30,7 @@ module.exports = {
         ram: '8 RAM',
         storage: '30gb',
         size:'s-4vcpu-8gb',
-        imageURL: 'http://localhost:3000/static/images/tri-star.png',
+        imageURL: 'https://chupinohostingbucket.nyc3.cdn.digitaloceanspaces.com/static/images/tri-star.png',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -40,7 +40,7 @@ module.exports = {
         ram: '8 RAM',
         storage: '30gb',
         size:'s-2vcpu-8gb-amd',
-        imageURL: 'http://localhost:3000/static/images/tri-star.png',
+        imageURL: 'https://chupinohostingbucket.nyc3.cdn.digitaloceanspaces.com/static/images/tri-star.png',
         createdAt: new Date(),
         updatedAt: new Date()
       },
